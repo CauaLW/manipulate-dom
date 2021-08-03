@@ -1,11 +1,11 @@
 const addParagraph = () => {
-    // Armazena o body da página
-    const body = document.querySelector('body')
-
     // Armazena o texto desejado no novo paragráfo
     const text = document.querySelector('#newText')
     // Confere se há algum texto no input
     if(!text.value) return ''
+    
+    // Armazena o body da página
+    const body = document.querySelector('body')
 
     // Inicia a variável da classe selecionada para o elemento
     let selectedClass
