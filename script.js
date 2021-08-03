@@ -31,6 +31,8 @@ const addParagraph = () => {
 
     // Zera o input de texto
     text.value = ''
+    // Zera o input de classe
+    document.querySelectorAll('.radioBtn').checked = false
 }
 
 // Armazena o botão de adição
