@@ -1,0 +1,15 @@
+p {
+    font-size: 1.1em;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.blue {
+    color: #0000FF;
+}
+
+p.big {
+    font-size: 1.7em;
+}
